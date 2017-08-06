@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFFCCF361F379937003986ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCCF351F379937003986ED /* AppDelegate.swift */; };
+		CFFCCF381F379937003986ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCCF371F379937003986ED /* ViewController.swift */; };
+		CFFCCF3B1F379937003986ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFFCCF391F379937003986ED /* Main.storyboard */; };
+		CFFCCF3D1F379937003986ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFFCCF3C1F379937003986ED /* Assets.xcassets */; };
+		CFFCCF401F379937003986ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFFCCF3E1F379937003986ED /* LaunchScreen.storyboard */; };
+		CFFCCF4B1F379937003986ED /* ChefBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCCF4A1F379937003986ED /* ChefBookTests.swift */; };
+		CFFCCF561F379937003986ED /* ChefBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCCF551F379937003986ED /* ChefBookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFFCCF471F379937003986ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFFCCF2A1F379937003986ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFFCCF311F379937003986ED;
+			remoteInfo = ChefBook;
+		};
+		CFFCCF521F379937003986ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFFCCF2A1F379937003986ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFFCCF311F379937003986ED;
+			remoteInfo = ChefBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFFCCF321F379937003986ED /* ChefBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChefBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFCCF351F379937003986ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFFCCF371F379937003986ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFFCCF3A1F379937003986ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFFCCF3C1F379937003986ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFFCCF3F1F379937003986ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFFCCF411F379937003986ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFFCCF461F379937003986ED /* ChefBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChefBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFCCF4A1F379937003986ED /* ChefBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefBookTests.swift; sourceTree = "<group>"; };
+		CFFCCF4C1F379937003986ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFFCCF511F379937003986ED /* ChefBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChefBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFFCCF551F379937003986ED /* ChefBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefBookUITests.swift; sourceTree = "<group>"; };
+		CFFCCF571F379937003986ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFFCCF2F1F379937003986ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFCCF431F379937003986ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFCCF4E1F379937003986ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFFCCF291F379937003986ED = {
+			isa = PBXGroup;
+			children = (
+				CFFCCF341F379937003986ED /* ChefBook */,
+				CFFCCF491F379937003986ED /* ChefBookTests */,
+				CFFCCF541F379937003986ED /* ChefBookUITests */,
+				CFFCCF331F379937003986ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFFCCF331F379937003986ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCCF321F379937003986ED /* ChefBook.app */,
+				CFFCCF461F379937003986ED /* ChefBookTests.xctest */,
+				CFFCCF511F379937003986ED /* ChefBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFFCCF341F379937003986ED /* ChefBook */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCCF351F379937003986ED /* AppDelegate.swift */,
+				CFFCCF371F379937003986ED /* ViewController.swift */,
+				CFFCCF391F379937003986ED /* Main.storyboard */,
+				CFFCCF3C1F379937003986ED /* Assets.xcassets */,
+				CFFCCF3E1F379937003986ED /* LaunchScreen.storyboard */,
+				CFFCCF411F379937003986ED /* Info.plist */,
+			);
+			path = ChefBook;
+			sourceTree = "<group>";
+		};
+		CFFCCF491F379937003986ED /* ChefBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCCF4A1F379937003986ED /* ChefBookTests.swift */,
+				CFFCCF4C1F379937003986ED /* Info.plist */,
+			);
+			path = ChefBookTests;
+			sourceTree = "<group>";
+		};
+		CFFCCF541F379937003986ED /* ChefBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFFCCF551F379937003986ED /* ChefBookUITests.swift */,
+				CFFCCF571F379937003986ED /* Info.plist */,
+			);
+			path = ChefBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFFCCF311F379937003986ED /* ChefBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFCCF5A1F379937003986ED /* Build configuration list for PBXNativeTarget "ChefBook" */;
+			buildPhases = (
+				CFFCCF2E1F379937003986ED /* Sources */,
+				CFFCCF2F1F379937003986ED /* Frameworks */,
+				CFFCCF301F379937003986ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChefBook;
+			productName = ChefBook;
+			productReference = CFFCCF321F379937003986ED /* ChefBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFFCCF451F379937003986ED /* ChefBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFCCF5D1F379937003986ED /* Build configuration list for PBXNativeTarget "ChefBookTests" */;
+			buildPhases = (
+				CFFCCF421F379937003986ED /* Sources */,
+				CFFCCF431F379937003986ED /* Frameworks */,
+				CFFCCF441F379937003986ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFFCCF481F379937003986ED /* PBXTargetDependency */,
+			);
+			name = ChefBookTests;
+			productName = ChefBookTests;
+			productReference = CFFCCF461F379937003986ED /* ChefBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFFCCF501F379937003986ED /* ChefBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFFCCF601F379937003986ED /* Build configuration list for PBXNativeTarget "ChefBookUITests" */;
+			buildPhases = (
+				CFFCCF4D1F379937003986ED /* Sources */,
+				CFFCCF4E1F379937003986ED /* Frameworks */,
+				CFFCCF4F1F379937003986ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFFCCF531F379937003986ED /* PBXTargetDependency */,
+			);
+			name = ChefBookUITests;
+			productName = ChefBookUITests;
+			productReference = CFFCCF511F379937003986ED /* ChefBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFFCCF2A1F379937003986ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ben Bradley";
+				TargetAttributes = {
+					CFFCCF311F379937003986ED = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 95V5VH4J24;
+						ProvisioningStyle = Automatic;
+					};
+					CFFCCF451F379937003986ED = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 95V5VH4J24;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFFCCF311F379937003986ED;
+					};
+					CFFCCF501F379937003986ED = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 95V5VH4J24;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFFCCF311F379937003986ED;
+					};
+				};
+			};
+			buildConfigurationList = CFFCCF2D1F379937003986ED /* Build configuration list for PBXProject "ChefBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFFCCF291F379937003986ED;
+			productRefGroup = CFFCCF331F379937003986ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFFCCF311F379937003986ED /* ChefBook */,
+				CFFCCF451F379937003986ED /* ChefBookTests */,
+				CFFCCF501F379937003986ED /* ChefBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFFCCF301F379937003986ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFCCF401F379937003986ED /* LaunchScreen.storyboard in Resources */,
+				CFFCCF3D1F379937003986ED /* Assets.xcassets in Resources */,
+				CFFCCF3B1F379937003986ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFCCF441F379937003986ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFCCF4F1F379937003986ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFFCCF2E1F379937003986ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFCCF381F379937003986ED /* ViewController.swift in Sources */,
+				CFFCCF361F379937003986ED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFCCF421F379937003986ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFCCF4B1F379937003986ED /* ChefBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFFCCF4D1F379937003986ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFFCCF561F379937003986ED /* ChefBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFFCCF481F379937003986ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFFCCF311F379937003986ED /* ChefBook */;
+			targetProxy = CFFCCF471F379937003986ED /* PBXContainerItemProxy */;
+		};
+		CFFCCF531F379937003986ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFFCCF311F379937003986ED /* ChefBook */;
+			targetProxy = CFFCCF521F379937003986ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFFCCF391F379937003986ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFFCCF3A1F379937003986ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFFCCF3E1F379937003986ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFFCCF3F1F379937003986ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFFCCF581F379937003986ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFFCCF591F379937003986ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFFCCF5B1F379937003986ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 95V5VH4J24;
+				INFOPLIST_FILE = ChefBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iambenbradley.ChefBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CFFCCF5C1F379937003986ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 95V5VH4J24;
+				INFOPLIST_FILE = ChefBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iambenbradley.ChefBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CFFCCF5E1F379937003986ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 95V5VH4J24;
+				INFOPLIST_FILE = ChefBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iambenbradley.ChefBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChefBook.app/ChefBook";
+			};
+			name = Debug;
+		};
+		CFFCCF5F1F379937003986ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 95V5VH4J24;
+				INFOPLIST_FILE = ChefBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iambenbradley.ChefBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChefBook.app/ChefBook";
+			};
+			name = Release;
+		};
+		CFFCCF611F379937003986ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 95V5VH4J24;
+				INFOPLIST_FILE = ChefBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iambenbradley.ChefBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ChefBook;
+			};
+			name = Debug;
+		};
+		CFFCCF621F379937003986ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 95V5VH4J24;
+				INFOPLIST_FILE = ChefBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iambenbradley.ChefBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ChefBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFFCCF2D1F379937003986ED /* Build configuration list for PBXProject "ChefBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFCCF581F379937003986ED /* Debug */,
+				CFFCCF591F379937003986ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFFCCF5A1F379937003986ED /* Build configuration list for PBXNativeTarget "ChefBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFCCF5B1F379937003986ED /* Debug */,
+				CFFCCF5C1F379937003986ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFFCCF5D1F379937003986ED /* Build configuration list for PBXNativeTarget "ChefBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFCCF5E1F379937003986ED /* Debug */,
+				CFFCCF5F1F379937003986ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFFCCF601F379937003986ED /* Build configuration list for PBXNativeTarget "ChefBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFFCCF611F379937003986ED /* Debug */,
+				CFFCCF621F379937003986ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFFCCF2A1F379937003986ED /* Project object */;
+}
