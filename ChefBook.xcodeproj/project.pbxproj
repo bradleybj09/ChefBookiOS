@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EACC30669C7FBAC7C53FD37 /* Pods_ChefBookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356CF16AB63439168F66B321 /* Pods_ChefBookTests.framework */; };
+		718310F60DD4791493D42D7C /* Pods_ChefBookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60804E9275EFF9B1D7EFB4D3 /* Pods_ChefBookUITests.framework */; };
+		A704D28091C9C79C66DCDE8A /* Pods_ChefBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314634DA9FCC2374B4EA6C9A /* Pods_ChefBook.framework */; };
+		CF264C0B1F3934E40029CEED /* chefbook_logo_only.png in Resources */ = {isa = PBXBuildFile; fileRef = CF264C0A1F3934E40029CEED /* chefbook_logo_only.png */; };
+		CF264C0D1F3934EE0029CEED /* chefbook_title_only.png in Resources */ = {isa = PBXBuildFile; fileRef = CF264C0C1F3934EE0029CEED /* chefbook_title_only.png */; };
+		CF264C0F1F3934FD0029CEED /* chefbook.png in Resources */ = {isa = PBXBuildFile; fileRef = CF264C0E1F3934FD0029CEED /* chefbook.png */; };
+		CF2B5A111F3D220F00F0D037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2B5A101F3D220F00F0D037 /* Main.storyboard */; };
+		CF49B98E1F4A359100E94E65 /* ListRecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF49B98D1F4A359100E94E65 /* ListRecipeCell.swift */; };
+		CF49B9901F4A391E00E94E65 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF49B98F1F4A391E00E94E65 /* ListViewController.swift */; };
+		CF49B9941F4A7EED00E94E65 /* ListIngredientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF49B9931F4A7EED00E94E65 /* ListIngredientCell.swift */; };
+		CF5A7DA91F3D14470008973C /* MyRecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5A7DA81F3D14470008973C /* MyRecipesViewController.swift */; };
+		CFB7B3791F3F803500EC2F26 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB7B3781F3F803500EC2F26 /* Recipe.swift */; };
+		CFB7B37B1F3F832E00EC2F26 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB7B37A1F3F832E00EC2F26 /* Ingredient.swift */; };
+		CFD5BE501F4730AE003CB85D /* MyRecipesDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD5BE4F1F4730AE003CB85D /* MyRecipesDB.swift */; };
+		CFD5BE521F473282003CB85D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD5BE511F473282003CB85D /* libsqlite3.tbd */; };
+		CFE5192D1F40F0E900527887 /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE5192C1F40F0E900527887 /* RecipeDetailViewController.swift */; };
 		CFFCCF361F379937003986ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCCF351F379937003986ED /* AppDelegate.swift */; };
 		CFFCCF381F379937003986ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCCF371F379937003986ED /* ViewController.swift */; };
-		CFFCCF3B1F379937003986ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFFCCF391F379937003986ED /* Main.storyboard */; };
 		CFFCCF3D1F379937003986ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFFCCF3C1F379937003986ED /* Assets.xcassets */; };
-		CFFCCF401F379937003986ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFFCCF3E1F379937003986ED /* LaunchScreen.storyboard */; };
 		CFFCCF4B1F379937003986ED /* ChefBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCCF4A1F379937003986ED /* ChefBookTests.swift */; };
 		CFFCCF561F379937003986ED /* ChefBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFCCF551F379937003986ED /* ChefBookUITests.swift */; };
+		CFFF5EB41F3FDE1500540D92 /* RecipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFF5EB31F3FDE1500540D92 /* RecipeCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +49,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F2359E9443529AAF4CF6DEF /* Pods-ChefBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChefBookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChefBookTests/Pods-ChefBookTests.release.xcconfig"; sourceTree = "<group>"; };
+		156C6163C83532452B606F37 /* Pods-ChefBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChefBookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChefBookTests/Pods-ChefBookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		314634DA9FCC2374B4EA6C9A /* Pods_ChefBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChefBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		342346FA7086989AD330A2BD /* Pods-ChefBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChefBookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChefBookUITests/Pods-ChefBookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		356CF16AB63439168F66B321 /* Pods_ChefBookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChefBookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4ADAFD94773ECE2D4C8A87 /* Pods-ChefBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChefBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChefBook/Pods-ChefBook.debug.xcconfig"; sourceTree = "<group>"; };
+		60804E9275EFF9B1D7EFB4D3 /* Pods_ChefBookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChefBookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9460D0CB8E9F116DD4369FE3 /* Pods-ChefBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChefBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChefBook/Pods-ChefBook.release.xcconfig"; sourceTree = "<group>"; };
+		CBCE413AFCC280D69158F8E5 /* Pods-ChefBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChefBookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChefBookUITests/Pods-ChefBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF264C0A1F3934E40029CEED /* chefbook_logo_only.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chefbook_logo_only.png; path = ../../Downloads/chefbook_logo_only.png; sourceTree = "<group>"; };
+		CF264C0C1F3934EE0029CEED /* chefbook_title_only.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chefbook_title_only.png; path = ../../Downloads/chefbook_title_only.png; sourceTree = "<group>"; };
+		CF264C0E1F3934FD0029CEED /* chefbook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chefbook.png; path = ../../Downloads/chefbook.png; sourceTree = "<group>"; };
+		CF2B5A101F3D220F00F0D037 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CF49B98D1F4A359100E94E65 /* ListRecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListRecipeCell.swift; sourceTree = "<group>"; };
+		CF49B98F1F4A391E00E94E65 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		CF49B9931F4A7EED00E94E65 /* ListIngredientCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListIngredientCell.swift; sourceTree = "<group>"; };
+		CF5A7DA81F3D14470008973C /* MyRecipesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRecipesViewController.swift; sourceTree = "<group>"; };
+		CFB7B3781F3F803500EC2F26 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		CFB7B37A1F3F832E00EC2F26 /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		CFD5BE4F1F4730AE003CB85D /* MyRecipesDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRecipesDB.swift; sourceTree = "<group>"; };
+		CFD5BE511F473282003CB85D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CFE5192C1F40F0E900527887 /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
 		CFFCCF321F379937003986ED /* ChefBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChefBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFFCCF351F379937003986ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFFCCF371F379937003986ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CFFCCF3A1F379937003986ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFFCCF3C1F379937003986ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CFFCCF3F1F379937003986ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFFCCF411F379937003986ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFFCCF461F379937003986ED /* ChefBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChefBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFFCCF4A1F379937003986ED /* ChefBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefBookTests.swift; sourceTree = "<group>"; };
@@ -47,6 +82,7 @@
 		CFFCCF511F379937003986ED /* ChefBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChefBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFFCCF551F379937003986ED /* ChefBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefBookUITests.swift; sourceTree = "<group>"; };
 		CFFCCF571F379937003986ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFFF5EB31F3FDE1500540D92 /* RecipeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD5BE521F473282003CB85D /* libsqlite3.tbd in Frameworks */,
+				A704D28091C9C79C66DCDE8A /* Pods_ChefBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EACC30669C7FBAC7C53FD37 /* Pods_ChefBookTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +107,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				718310F60DD4791493D42D7C /* Pods_ChefBookUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CD1F8967D9EC5F3BBC08EAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFD5BE511F473282003CB85D /* libsqlite3.tbd */,
+				314634DA9FCC2374B4EA6C9A /* Pods_ChefBook.framework */,
+				356CF16AB63439168F66B321 /* Pods_ChefBookTests.framework */,
+				60804E9275EFF9B1D7EFB4D3 /* Pods_ChefBookUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF264C091F3934A10029CEED /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CF264C0E1F3934FD0029CEED /* chefbook.png */,
+				CF264C0C1F3934EE0029CEED /* chefbook_title_only.png */,
+				CF264C0A1F3934E40029CEED /* chefbook_logo_only.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		CFFCCF291F379937003986ED = {
 			isa = PBXGroup;
 			children = (
+				CF264C091F3934A10029CEED /* Images */,
 				CFFCCF341F379937003986ED /* ChefBook */,
 				CFFCCF491F379937003986ED /* ChefBookTests */,
 				CFFCCF541F379937003986ED /* ChefBookUITests */,
 				CFFCCF331F379937003986ED /* Products */,
+				F92CB84E9B5FD9B6C29EF388 /* Pods */,
+				1CD1F8967D9EC5F3BBC08EAB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +161,20 @@
 		CFFCCF341F379937003986ED /* ChefBook */ = {
 			isa = PBXGroup;
 			children = (
+				CF49B9931F4A7EED00E94E65 /* ListIngredientCell.swift */,
+				CF49B98D1F4A359100E94E65 /* ListRecipeCell.swift */,
+				CF5A7DA81F3D14470008973C /* MyRecipesViewController.swift */,
 				CFFCCF351F379937003986ED /* AppDelegate.swift */,
 				CFFCCF371F379937003986ED /* ViewController.swift */,
-				CFFCCF391F379937003986ED /* Main.storyboard */,
 				CFFCCF3C1F379937003986ED /* Assets.xcassets */,
-				CFFCCF3E1F379937003986ED /* LaunchScreen.storyboard */,
+				CF2B5A101F3D220F00F0D037 /* Main.storyboard */,
+				CF49B98F1F4A391E00E94E65 /* ListViewController.swift */,
+				CFD5BE4F1F4730AE003CB85D /* MyRecipesDB.swift */,
+				CFE5192C1F40F0E900527887 /* RecipeDetailViewController.swift */,
+				CFFF5EB31F3FDE1500540D92 /* RecipeCollectionViewCell.swift */,
 				CFFCCF411F379937003986ED /* Info.plist */,
+				CFB7B3781F3F803500EC2F26 /* Recipe.swift */,
+				CFB7B37A1F3F832E00EC2F26 /* Ingredient.swift */,
 			);
 			path = ChefBook;
 			sourceTree = "<group>";
@@ -125,6 +197,19 @@
 			path = ChefBookUITests;
 			sourceTree = "<group>";
 		};
+		F92CB84E9B5FD9B6C29EF388 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E4ADAFD94773ECE2D4C8A87 /* Pods-ChefBook.debug.xcconfig */,
+				9460D0CB8E9F116DD4369FE3 /* Pods-ChefBook.release.xcconfig */,
+				156C6163C83532452B606F37 /* Pods-ChefBookTests.debug.xcconfig */,
+				0F2359E9443529AAF4CF6DEF /* Pods-ChefBookTests.release.xcconfig */,
+				CBCE413AFCC280D69158F8E5 /* Pods-ChefBookUITests.debug.xcconfig */,
+				342346FA7086989AD330A2BD /* Pods-ChefBookUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFFCCF5A1F379937003986ED /* Build configuration list for PBXNativeTarget "ChefBook" */;
 			buildPhases = (
+				ADA9A81A398EAC37456927CC /* [CP] Check Pods Manifest.lock */,
 				CFFCCF2E1F379937003986ED /* Sources */,
 				CFFCCF2F1F379937003986ED /* Frameworks */,
 				CFFCCF301F379937003986ED /* Resources */,
+				5BC1138255BA8109EC7E4A40 /* [CP] Embed Pods Frameworks */,
+				B65C1AA835324892AE1C0392 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFFCCF5D1F379937003986ED /* Build configuration list for PBXNativeTarget "ChefBookTests" */;
 			buildPhases = (
+				92BB4FFD2BEAFABF6D1DC635 /* [CP] Check Pods Manifest.lock */,
 				CFFCCF421F379937003986ED /* Sources */,
 				CFFCCF431F379937003986ED /* Frameworks */,
 				CFFCCF441F379937003986ED /* Resources */,
+				E67973C7538A18DECD8DE2CA /* [CP] Embed Pods Frameworks */,
+				D8564B5B8A6B20E9B8EF85D9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFFCCF601F379937003986ED /* Build configuration list for PBXNativeTarget "ChefBookUITests" */;
 			buildPhases = (
+				E7699CC5E56DC7C9632F474C /* [CP] Check Pods Manifest.lock */,
 				CFFCCF4D1F379937003986ED /* Sources */,
 				CFFCCF4E1F379937003986ED /* Frameworks */,
 				CFFCCF4F1F379937003986ED /* Resources */,
+				69CDAD9D1725707F0E81624E /* [CP] Embed Pods Frameworks */,
+				7D3D207086ECD949757BC89B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +288,7 @@
 					CFFCCF311F379937003986ED = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 95V5VH4J24;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					CFFCCF451F379937003986ED = {
@@ -235,9 +330,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFFCCF401F379937003986ED /* LaunchScreen.storyboard in Resources */,
 				CFFCCF3D1F379937003986ED /* Assets.xcassets in Resources */,
-				CFFCCF3B1F379937003986ED /* Main.storyboard in Resources */,
+				CF264C0F1F3934FD0029CEED /* chefbook.png in Resources */,
+				CF2B5A111F3D220F00F0D037 /* Main.storyboard in Resources */,
+				CF264C0D1F3934EE0029CEED /* chefbook_title_only.png in Resources */,
+				CF264C0B1F3934E40029CEED /* chefbook_logo_only.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +354,175 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5BC1138255BA8109EC7E4A40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChefBook/Pods-ChefBook-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GridView/GridView.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GridView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChefBook/Pods-ChefBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69CDAD9D1725707F0E81624E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChefBookUITests/Pods-ChefBookUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D3D207086ECD949757BC89B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChefBookUITests/Pods-ChefBookUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92BB4FFD2BEAFABF6D1DC635 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChefBookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADA9A81A398EAC37456927CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChefBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B65C1AA835324892AE1C0392 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChefBook/Pods-ChefBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8564B5B8A6B20E9B8EF85D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChefBookTests/Pods-ChefBookTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E67973C7538A18DECD8DE2CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChefBookTests/Pods-ChefBookTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7699CC5E56DC7C9632F474C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChefBookUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CFFCCF2E1F379937003986ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF49B9941F4A7EED00E94E65 /* ListIngredientCell.swift in Sources */,
+				CFFF5EB41F3FDE1500540D92 /* RecipeCollectionViewCell.swift in Sources */,
+				CF5A7DA91F3D14470008973C /* MyRecipesViewController.swift in Sources */,
+				CFE5192D1F40F0E900527887 /* RecipeDetailViewController.swift in Sources */,
+				CF49B98E1F4A359100E94E65 /* ListRecipeCell.swift in Sources */,
+				CFD5BE501F4730AE003CB85D /* MyRecipesDB.swift in Sources */,
+				CFB7B3791F3F803500EC2F26 /* Recipe.swift in Sources */,
+				CFB7B37B1F3F832E00EC2F26 /* Ingredient.swift in Sources */,
 				CFFCCF381F379937003986ED /* ViewController.swift in Sources */,
+				CF49B9901F4A391E00E94E65 /* ListViewController.swift in Sources */,
 				CFFCCF361F379937003986ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,25 +557,6 @@
 			targetProxy = CFFCCF521F379937003986ED /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		CFFCCF391F379937003986ED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CFFCCF3A1F379937003986ED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CFFCCF3E1F379937003986ED /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CFFCCF3F1F379937003986ED /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CFFCCF581F379937003986ED /* Debug */ = {
@@ -415,23 +656,30 @@
 		};
 		CFFCCF5B1F379937003986ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E4ADAFD94773ECE2D4C8A87 /* Pods-ChefBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 95V5VH4J24;
 				INFOPLIST_FILE = ChefBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iambenbradley.ChefBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		CFFCCF5C1F379937003986ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9460D0CB8E9F116DD4369FE3 /* Pods-ChefBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 95V5VH4J24;
 				INFOPLIST_FILE = ChefBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iambenbradley.ChefBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +689,7 @@
 		};
 		CFFCCF5E1F379937003986ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156C6163C83532452B606F37 /* Pods-ChefBookTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +705,7 @@
 		};
 		CFFCCF5F1F379937003986ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F2359E9443529AAF4CF6DEF /* Pods-ChefBookTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +721,7 @@
 		};
 		CFFCCF611F379937003986ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBCE413AFCC280D69158F8E5 /* Pods-ChefBookUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 95V5VH4J24;
@@ -485,6 +736,7 @@
 		};
 		CFFCCF621F379937003986ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 342346FA7086989AD330A2BD /* Pods-ChefBookUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 95V5VH4J24;
@@ -516,6 +768,7 @@
 				CFFCCF5C1F379937003986ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFFCCF5D1F379937003986ED /* Build configuration list for PBXNativeTarget "ChefBookTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +777,7 @@
 				CFFCCF5F1F379937003986ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFFCCF601F379937003986ED /* Build configuration list for PBXNativeTarget "ChefBookUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +786,7 @@
 				CFFCCF621F379937003986ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
